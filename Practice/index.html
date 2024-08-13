@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        let clickCount = 0;
+
+        function handleClick() {
+            clickCount++;
+            alert("VAI LER UM LIVRO !!! Você e mais " + clickCount + " pessoas caíram nessa!! Beijos da Carol");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="./logo.jpg" alt="Profile Icon" class="profile-icon">
+        <h1>New Member </h1>
+        <p>Perfil - Caroline </p>
+        <button onclick="handleClick()">Entrar no Perfil</button>
+    </div>
+</body>
+</html>
